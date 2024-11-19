@@ -49,7 +49,7 @@ public class MeterPistol : MonoBehaviour
 
         if (hasHIt)
         {
-            hit.transform.gameObject.SendMessage("Breadk",SendMessageOptions.DontRequireReceiver);
+            hit.transform.gameObject.SendMessage("Break", SendMessageOptions.DontRequireReceiver);
         }
     }
 

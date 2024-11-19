@@ -5,6 +5,8 @@ using UnityEngine;
 public class Breakable : MonoBehaviour
 {
     public List<GameObject> breakablePieces;
+    public float timetobreak = 2;
+    private float timer = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -18,13 +20,18 @@ public class Breakable : MonoBehaviour
     // Update is called once per frame
     public void Break()
     {
-        foreach(var item in breakablePieces)
+        timer += Time.deltaTime;
+        if(timer > timetobreak)
         {
-            item.SetActive(true);
-            item.transform.parent = null;
-        }
+            foreach (var item in breakablePieces)
+            {
+                item.SetActive(true);
+                item.transform.parent = null;
+            }
 
-        gameObject.SetActive(false);
+            gameObject.SetActive(false);
+
+        }
 
     }
 }

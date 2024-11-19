@@ -871,24 +871,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 273645591}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &331668721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494057903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c230ab9d85215742bd9161a67195344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakablePieces:
-  - {fileID: 494057906}
-  - {fileID: 494057905}
-  - {fileID: 494057904}
-  - {fileID: 494057903}
-  - {fileID: 494057902}
 --- !u!114 &331668722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,6 +1859,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1492457290808743536, guid: dc40d4936f6d7f44a88297e1d42d288a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 999f7862a40eb794da0d013c4ccb2f94, type: 2}
     - target: {fileID: 1492457290810789062, guid: dc40d4936f6d7f44a88297e1d42d288a,
         type: 3}
       propertyPath: m_IsActive
@@ -1997,10 +1984,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1760853961}
-    - targetCorrespondingSourceObject: {fileID: 1492457291336030837, guid: dc40d4936f6d7f44a88297e1d42d288a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1760853960}
     - targetCorrespondingSourceObject: {fileID: 1492457292308410173, guid: dc40d4936f6d7f44a88297e1d42d288a,
         type: 3}
       insertIndex: -1
@@ -2017,10 +2000,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1561104652}
-    - targetCorrespondingSourceObject: {fileID: 1492457292308410173, guid: dc40d4936f6d7f44a88297e1d42d288a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1561104651}
     - targetCorrespondingSourceObject: {fileID: 1492457290346192875, guid: dc40d4936f6d7f44a88297e1d42d288a,
         type: 3}
       insertIndex: -1
@@ -2037,10 +2016,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438383562}
-    - targetCorrespondingSourceObject: {fileID: 1492457290346192875, guid: dc40d4936f6d7f44a88297e1d42d288a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1438383561}
     - targetCorrespondingSourceObject: {fileID: 1492457292214062564, guid: dc40d4936f6d7f44a88297e1d42d288a,
         type: 3}
       insertIndex: -1
@@ -2057,10 +2032,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 331668722}
-    - targetCorrespondingSourceObject: {fileID: 1492457292214062564, guid: dc40d4936f6d7f44a88297e1d42d288a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 331668721}
     - targetCorrespondingSourceObject: {fileID: 1492457290810789062, guid: dc40d4936f6d7f44a88297e1d42d288a,
         type: 3}
       insertIndex: -1
@@ -2077,10 +2048,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 494057908}
-    - targetCorrespondingSourceObject: {fileID: 1492457290810789062, guid: dc40d4936f6d7f44a88297e1d42d288a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 494057907}
   m_SourcePrefab: {fileID: 100100000, guid: dc40d4936f6d7f44a88297e1d42d288a, type: 3}
 --- !u!1 &494057901 stripped
 GameObject:
@@ -2118,24 +2085,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 494057900}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &494057907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494057902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c230ab9d85215742bd9161a67195344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakablePieces:
-  - {fileID: 494057906}
-  - {fileID: 494057905}
-  - {fileID: 494057904}
-  - {fileID: 494057903}
-  - {fileID: 494057902}
 --- !u!114 &494057908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,24 +5872,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1935652771}
   m_SourcePrefab: {fileID: 100100000, guid: c3fb9fa880951304eb77858c811979c1, type: 3}
---- !u!114 &1438383561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494057904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c230ab9d85215742bd9161a67195344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakablePieces:
-  - {fileID: 494057906}
-  - {fileID: 494057905}
-  - {fileID: 494057904}
-  - {fileID: 494057903}
-  - {fileID: 494057902}
 --- !u!114 &1438383562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6436,24 +6367,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftHandModel: {fileID: 1359254682}
   rightHandModel: {fileID: 916808206}
---- !u!114 &1561104651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494057905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c230ab9d85215742bd9161a67195344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakablePieces:
-  - {fileID: 494057906}
-  - {fileID: 494057905}
-  - {fileID: 494057904}
-  - {fileID: 494057903}
-  - {fileID: 494057902}
 --- !u!114 &1561104652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7540,24 +7453,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1745530879}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1760853960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494057906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c230ab9d85215742bd9161a67195344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakablePieces:
-  - {fileID: 494057906}
-  - {fileID: 494057905}
-  - {fileID: 494057904}
-  - {fileID: 494057903}
-  - {fileID: 494057902}
 --- !u!114 &1760853961
 MonoBehaviour:
   m_ObjectHideFlags: 0
