@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Valem_VRTutorial
   productName: Valem Tutorials
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -134,7 +134,10 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 1977131052368605284, guid: a63f828ab8b36cd4ea7463e3268c72e5, type: 2}
+  - {fileID: 11400000, guid: ed66c0bee89ddd840891aa0652057e02, type: 2}
+  - {fileID: 8881747312260718814, guid: 839cfc90f6b3cf242b6e904ab26f7962, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
