@@ -835,12 +835,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 152077650}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &160457810 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2764078842493401240, guid: 06cd9e9af97d88946893bd961c4d7f4f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1660589905}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &162479476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -968,8 +962,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
-  m_AttachTransform: {fileID: 160457810}
+    m_Bits: 2
+  m_AttachTransform: {fileID: 438886144}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -1883,6 +1877,12 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!4 &438886144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8575555731640000212, guid: b7ee10ba487867d47a2942e352102583,
+    type: 3}
+  m_PrefabInstance: {fileID: 720413143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &442200397
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,6 +4348,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 818560693}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &836180820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7713032012916009969, guid: 06cd9e9af97d88946893bd961c4d7f4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1660589905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &855955619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4843,10 +4849,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Push Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5419331889293473514, guid: 76f3439a0ae796e4b81bee3f91f888ee,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2040023455}
   m_SourcePrefab: {fileID: 100100000, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
 --- !u!1001 &981476944
 PrefabInstance:
@@ -6821,6 +6836,12 @@ PrefabInstance:
 --- !u!4 &1440414469 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 415124, guid: 820591594dcfa124d8a9c5d016d6c22c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1440414468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1440414471 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9546954, guid: 820591594dcfa124d8a9c5d016d6c22c,
     type: 3}
   m_PrefabInstance: {fileID: 1440414468}
   m_PrefabAsset: {fileID: 0}
@@ -8861,8 +8882,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
-  m_AttachTransform: {fileID: 160457810}
+    m_Bits: 2
+  m_AttachTransform: {fileID: 836180820}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -9334,6 +9355,12 @@ MonoBehaviour:
   OnEnterEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1961769720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4922582553321831162, guid: 76f3439a0ae796e4b81bee3f91f888ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 952590033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1984417193
 GameObject:
   m_ObjectHideFlags: 0
@@ -9714,6 +9741,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 952590033}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2040023455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961769720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7550f2623a4760a40ace73fc0e77169b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1440414471}
+  boolName: Open
 --- !u!1 &2052272754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2761784063978902507, guid: c1800acf6366418a9b5f610249000331,
